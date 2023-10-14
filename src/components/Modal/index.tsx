@@ -3,6 +3,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import ReactModal, { Styles } from "react-modal";
 import Form from "../Form";
 import { useState } from "react";
+import { EventContext } from "../../context/Countdown";
 
 const styles: Styles = {
     overlay: {
@@ -24,8 +25,10 @@ const styles: Styles = {
 };
 
 export default function Modal(): JSX.Element {
+    const { getEvent, cleanEvent } = EventContext();
+    const event = getEvent();
     const [isOpen, setIsOpen] = useState(false);
-    const [event, setEvent] = useState(false)
+
     const openModal = () => setIsOpen(true);
     const closeModal = () => setIsOpen(false);
 
@@ -53,7 +56,7 @@ export default function Modal(): JSX.Element {
                 </div>
             </ReactModal>
             <div className="flex justify-center">
-                {event ? (
+                {event === null ? (
                     <button
                         className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
                         onClick={openModal}
@@ -63,6 +66,7 @@ export default function Modal(): JSX.Element {
                 ) : (
                     <button
                         className="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+                        onClick={cleanEvent}
                     >
                         Cancelar evento
                     </button>

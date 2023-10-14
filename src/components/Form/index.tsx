@@ -10,6 +10,7 @@ import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { maskDate } from "../../util/masks-input";
 import { twMerge } from "tailwind-merge";
+import { EventContext } from "../../context/Countdown";
 
 const createEventFormSchema = z.object({
     title: z.string().min(1, "Campo obrigatório"),
@@ -19,6 +20,7 @@ const createEventFormSchema = z.object({
 type CreateEventFormData = z.infer<typeof createEventFormSchema>;
 
 export default function Form({ closeModal }: FormProps): JSX.Element {
+    const { addEvent } = EventContext();
     const {
         control,
         register,
@@ -29,7 +31,7 @@ export default function Form({ closeModal }: FormProps): JSX.Element {
     });
 
     const createEvent = (data: any) => {
-        console.log(data)
+        addEvent(data);
         closeModal();
     };
 
