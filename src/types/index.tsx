@@ -22,3 +22,14 @@ export interface CountdownProps {
     cleanEvent: () => void;
     getEvent: () => EventProps | null;
 }
+
+export interface TimeProps {
+    days: string;
+    hours: string;
+    minutes: string;
+    seconds: string;
+}
+
+export interface CountdownHookProps {
+    date?: string;
+}
