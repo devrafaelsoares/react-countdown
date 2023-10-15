@@ -15,10 +15,11 @@
   <div style="display:flex; justify-content:center; gap: 1em;">
   <a href="https://github.com/devrafaelsoares/react-countdown">
 
-  <img width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 512 512"><style>svg{fill:#61dbfb}</style><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>  
+  <img width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />  
   </a>
+  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+    <path style="fill:#61dbfb;" d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/>
+  </svg>
   </div>    
 
   <h3 align="center">react-countdown</h3>
@@ -64,8 +65,9 @@
 
 <div>
   <div style="display: flex; justify-content: center; flex-direction: column; align-items: center; gap: 1em; padding: 1em 0">
-    <div style="display:flex; justify-content:center; column; align-items:center; gap:2em">
+    <div align="center">
       <img width="500px" src="images/countdown-desktop.gif">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <img width="150px" src="images/countdown-mobile.gif">
   </div>
   <p>
