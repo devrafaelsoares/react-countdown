@@ -15,9 +15,7 @@
   <div>
   <a href="https://github.com/devrafaelsoares/react-countdown">
 
-  <img width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-        &nbsp;  
-  <img width="40px" src="images/countdown-icon.svg" />  
+  <img width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> <img width="40px" src="images/countdown-icon.svg" />  
   </a>
   </div>    
 
