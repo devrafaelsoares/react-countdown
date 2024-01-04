@@ -14,7 +14,7 @@ export interface ChildrenProps {
 
 export interface EventProps {
     title: string;
-    date: string;
+    date: Date;
 }
 export interface CountdownProps {
     event: EventProps | null;
