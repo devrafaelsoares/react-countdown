@@ -4,7 +4,7 @@ import MaskedTextInput from "react-text-mask";
 import DatePicker from "react-datepicker";
 import PT_BR from "date-fns/locale/pt-BR";
 import { BiErrorAlt } from "react-icons/bi";
-import { FormProps } from "../../types";
+import { EventProps, FormProps } from "../../types";
 import { z } from "zod";
 import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -12,9 +12,11 @@ import { maskDate } from "../../util/masks-input";
 import { twMerge } from "tailwind-merge";
 import { EventContext } from "../../context/Countdown";
 
+const minDate = moment().add(1, "days").toDate();
+
 const createEventFormSchema = z.object({
     title: z.string().min(1, "Campo obrigatório"),
-    date: z.date({ required_error: "Campo obrigatório" }),
+    date: z.date({ required_error: "Campo obrigatório" }).min(minDate, { message: "Data inválida" }),
 });
 
 type CreateEventFormData = z.infer<typeof createEventFormSchema>;
@@ -30,7 +32,7 @@ export default function Form({ closeModal }: FormProps): JSX.Element {
         resolver: zodResolver(createEventFormSchema),
     });
 
-    const createEvent = (data: any) => {
+    const createEvent = (data: EventProps) => {
         addEvent(data);
         closeModal();
     };
@@ -72,7 +74,7 @@ export default function Form({ closeModal }: FormProps): JSX.Element {
                             <DatePicker
                                 dateFormat="dd/MM/yyyy"
                                 locale={PT_BR}
-                                minDate={new Date(moment().add(1, "days").toString())}
+                                minDate={minDate}
                                 placeholderText="Informe a data do evento"
                                 className={twMerge(
                                     "bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5",
