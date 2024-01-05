@@ -12,7 +12,7 @@
   <div>
   <a href="https://github.com/devrafaelsoares/react-countdown">
 
-<img width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> <img width="40px" src="images/countdown-icon.svg" />  
+<img width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> <img width="40px" src="docs/images/countdown-icon.svg" />  
  </a>
 
   </div>
@@ -57,9 +57,9 @@
 <div>
   <div style="display: flex; justify-content: center; flex-direction: column; align-items: center; gap: 1em; padding: 1em 0">
     <div align="center">
-      <img width="500px" src="images/countdown-desktop.gif">
+      <img width="500px" src="docs/images/countdown-desktop.gif">
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img width="150px" src="images/countdown-mobile.gif">
+      <img width="150px" src="docs/images/countdown-mobile.gif">
   </div>
   <p>
   Este projeto foi elaborado com o objetivo de difundir meus conhecimentos e estudos em relação à biblioteca React. React opera por meio da componentização de elementos e renderizações, possibilitando a criação de modelos interativos, ágeis e expansíveis. Além disso, a integração do TypeScript oferece maior controle, prevenção de erros e garante uma abordagem mais robusta e segura no tratamento dos dados, graças à tipagem estática forte, permitindo a detecção e correção de erros durante o processo de desenvolvimento.
