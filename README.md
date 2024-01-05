@@ -1,4 +1,3 @@
-
 <a name="readme-top"></a>
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -8,16 +7,15 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 <br />
 <div align="center">
   <div>
   <a href="https://github.com/devrafaelsoares/react-countdown">
 
-  <img width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> <img width="40px" src="images/countdown-icon.svg" />  
-  </a>
-  </div>    
+<img width="45px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> <img width="40px" src="images/countdown-icon.svg" />  
+ </a>
+
+  </div>
 
   <h3 align="center">react-countdown</h3>
 
@@ -33,8 +31,6 @@
     <a href="https://github.com/devrafaelsoares/react-countdown/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <details>
   <summary>Índice</summary>
@@ -56,8 +52,6 @@
   </ol>
 </details>
 
-
-
 ## Sobre o projeto
 
 <div>
@@ -73,17 +67,13 @@
 </div>
   <p align="right">(<a href="#readme-top">🔝| Voltar para o topo</a>)</p>
 
-
 ### Construído com:
 
-   [![React][React.js]][React-url]
-   [![Typescript][Typescript.com]][Typescript-url]
-   [![Tailwindcss][Tailwindcss.com]][Tailwindcss-url]
-
+[![React][React.js]][React-url]
+[![Typescript][Typescript.com]][Typescript-url]
+[![Tailwindcss][Tailwindcss.com]][Tailwindcss-url]
 
 <p align="right">(<a href="#readme-top">🔝| Voltar para o topo</a>)</p>
-
-
 
 ## Começando
 
@@ -91,33 +81,32 @@
 
 Será necessário atualizar o Node Packager Manager (NPM)
 
-*
-  ```sh
-  npm install npm@latest -g
-  ```
+-   ```sh
+    npm install npm@latest -g
+    ```
 
 ### Instalação
 
 1. Clone o repositório
-   ```sh
-   git clone https://github.com/devrafaelsoares/react-countdown.git
-   ```
+    ```sh
+    git clone https://github.com/devrafaelsoares/react-countdown.git
+    ```
 2. Instale os pacotes do node
-   ```sh
-   npm install
-   ```
+    ```sh
+    npm install
+    ```
 3. Execute a aplicação
-   ```js
-   npm run dev
-   ```
+
+    ```js
+    npm run dev
+    ```
 
 4. Acesse em seu navegador
-   ```sh
-   http://localhost:5173
-   ```
+    ```sh
+    http://localhost:5173
+    ```
 
 <p align="right">(<a href="#readme-top">🔝| Voltar para o topo</a>)</p>
-
 
 ## Contatos
 
@@ -125,11 +114,9 @@ Será necessário atualizar o Node Packager Manager (NPM)
 
 ✉️ | E-mail: [rafael.soares.developer@gmail.com](mailto:rafael.soares.developer@gmail.com)
 
-🧑🏾‍💻 | Portfólio: [https://github.com/devrafaelsoares/portfolio](https://github.com/devrafaelsoares/portfolio)
+🧑🏾‍💻 | Portfólio: [https://devrafaelsoares.vercel.app](https://devrafaelsoares.vercel.app)
 
 <p align="right">(<a href="#readme-top">🔝| Voltar para o topo</a>)</p>
-
-
 
 [contributors-shield]: https://img.shields.io/github/contributors/devrafaelsoares/react-countdown.svg?style=for-the-badge
 [contributors-url]: https://github.com/devrafaelsoares/react-countdown/graphs/contributors
