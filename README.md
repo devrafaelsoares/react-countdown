@@ -69,9 +69,10 @@
 
 ### Construído com:
 
-[![React][React.js]][React-url]
-[![Typescript][Typescript.com]][Typescript-url]
-[![Tailwindcss][Tailwindcss.com]][Tailwindcss-url]
+![React][react-badge]
+![Typescript][typescript-badge]
+![NodeJS][node-js-badge]
+![TailwindCSS][tailwindcss]
 
 <p align="righ"><a href="#readme-top">🔝| Voltar para o topo</a></p>
 
@@ -130,9 +131,7 @@ Será necessário atualizar o Node Packager Manager (NPM)
 [license-url]: https://github.com/devrafaelsoares/react-countdown/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/rafael-henrique-soares-de-freitas-2a667a23a/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Tailwindcss.com]: https://img.shields.io/badge/tailwindcss-0769AD?style=for-the-badge&logo=tailwindcss&logoColor=white
-[Tailwindcss-url]: https://tailwindcss.com/
-[Typescript.com]: https://img.shields.io/badge/typescript-0769AD?style=for-the-badge&logo=typescript&logoColor=white
-[Typescript-url]: https://www.typescriptlang.org/
+[typescript-badge]: https://img.shields.io/badge/-Typescript-333333?style=flat&logo=typescript
+[react-badge]: https://img.shields.io/badge/-React-333333?style=flat&logo=react
+[node-js-badge]: https://img.shields.io/badge/-NodeJS-333333?style=flat&logo=node.js
+[tailwindcss]: https://img.shields.io/badge/-TailwindCSS-333333?style=flat&logo=tailwindcss
