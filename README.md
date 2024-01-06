@@ -21,10 +21,10 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/devrafaelsoares/react-countdown"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/devrafaelsoares/react-countdown"><strong>Explore a documentação »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/devrafaelsoares/react-countdown">View Demo</a>
+    <a href="https://github.com/devrafaelsoares/react-countdown">Visualizar a demonstração</a>
     ·
     <a href="https://github.com/devrafaelsoares/react-countdown/issues">Reportar Bug</a>
     ·
@@ -65,7 +65,7 @@
   Este projeto foi elaborado com o objetivo de difundir meus conhecimentos e estudos em relação à biblioteca React. React opera por meio da componentização de elementos e renderizações, possibilitando a criação de modelos interativos, ágeis e expansíveis. Além disso, a integração do TypeScript oferece maior controle, prevenção de erros e garante uma abordagem mais robusta e segura no tratamento dos dados, graças à tipagem estática forte, permitindo a detecção e correção de erros durante o processo de desenvolvimento.
   </p>
 </div>
-  <p align="right">(<a href="#readme-top">🔝| Voltar para o topo</a>)</p>
+  <p align="right"><a href="#readme-top">🔝| Voltar para o topo</a></p>
 
 ### Construído com:
 
@@ -73,7 +73,7 @@
 [![Typescript][Typescript.com]][Typescript-url]
 [![Tailwindcss][Tailwindcss.com]][Tailwindcss-url]
 
-<p align="right">(<a href="#readme-top">🔝| Voltar para o topo</a>)</p>
+<p align="righ"><a href="#readme-top">🔝| Voltar para o topo</a></p>
 
 ## Começando
 
@@ -106,7 +106,7 @@ Será necessário atualizar o Node Packager Manager (NPM)
     http://localhost:5173
     ```
 
-<p align="right">(<a href="#readme-top">🔝| Voltar para o topo</a>)</p>
+<p align="righ"><a href="#readme-top">🔝| Voltar para o topo</a></p>
 
 ## Contatos
 
@@ -116,7 +116,7 @@ Será necessário atualizar o Node Packager Manager (NPM)
 
 🧑🏾‍💻 | Portfólio: [https://devrafaelsoares.vercel.app](https://devrafaelsoares.vercel.app)
 
-<p align="right">(<a href="#readme-top">🔝| Voltar para o topo</a>)</p>
+<p align="righ"><a href="#readme-top">🔝| Voltar para o topo</a></p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/devrafaelsoares/react-countdown.svg?style=for-the-badge
 [contributors-url]: https://github.com/devrafaelsoares/react-countdown/graphs/contributors
